@@ -1,4 +1,4 @@
-# vue-awesome-form
+# @evatechsoft/vue-awesome-form
 
 > a vue form component just like json-editor
 
@@ -6,8 +6,8 @@
 
 ``` bash
 # npm/yarn
-npm install vue-awesome-form 
-yarn add vue-awesome-form
+npm install @evatechsoft/vue-awesome-form 
+yarn add @evatechsoft/vue-awesome-form
 ```
 
 ## Use
@@ -15,8 +15,8 @@ yarn add vue-awesome-form
 register the component
 ``` js
 import Vue from 'vue'
-import SchemaForm from 'vue-awesome-form'
-import 'vue-awesome-form/dist/main.css'
+import SchemaForm from '@evatechsoft/vue-awesome-form'
+import '@evatechsoft/vue-awesome-form/dist/main.css'
 
 Vue.component('schema-form', SchemaForm)
 ```
@@ -32,8 +32,8 @@ use in component
 
 CDN
 ```html
-<script src="https://unpkg.com/vue-awesome-form@latest/dist/main.js"></script>
-<script src="https://unpkg.com/vue-awesome-form@latest/dist/main.css"></script>
+<script src="https://unpkg.com/@evatechsoft/vue-awesome-form@latest/dist/main.js"></script>
+<script src="https://unpkg.com/@evatechsoft/vue-awesome-form@latest/dist/main.css"></script>
 ```
 
 Props:
@@ -112,6 +112,12 @@ handleReset() {
   this.$refs.schemaForm.resetFields();
 }
 ```
+
+## Contributors
+
+fightingm <https://github.com/fightingm>
+Karan More <https://github.com/karan3112>
+Chandan Pasunoori <https://github.com/etsrepo>
 
 ## Demo
 
